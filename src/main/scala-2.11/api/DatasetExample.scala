@@ -26,8 +26,8 @@ object DatasetExample extends App with Spark {
     .as
 
   val result: Dataset[(String, Double)] = dogDensity
-    .joinWith(postcodeDistricts, $"postcodeDistrict" === $"postcode")
-    .filter(_._2.postcode == "E1")
+    .joinWith(postcodeDistricts, $"postcodeDistrict".as[String] === $"postcode".as[String])
+    .filter(joined => joined._2.postcode == "E1")
     .select($"_2.townArea".as[String], $"_1.estimatedDogPopulation".as[Double])
 
   result.show(truncate = false)

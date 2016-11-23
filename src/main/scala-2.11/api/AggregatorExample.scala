@@ -20,8 +20,7 @@ object AggregatorExample extends App with Fixture {
     new Aggregator[DogDensity, DogDensity, String] with Serializable {
       def zero: DogDensity = DogDensity("", zeroValue)
 
-      def reduce(b: DogDensity, a: DogDensity): DogDensity =
-        if (f(a.estimatedDogPopulation, b.estimatedDogPopulation)) DogDensity(a.postcodeDistrict, a.estimatedDogPopulation) else b
+      def reduce(b: DogDensity, a: DogDensity): DogDensity =  if (f(a.estimatedDogPopulation, b.estimatedDogPopulation)) a else b
 
       def merge(b1: DogDensity, b2: DogDensity): DogDensity = if (f(b1.estimatedDogPopulation, b2.estimatedDogPopulation)) b1 else b2
 
