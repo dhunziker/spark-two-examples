@@ -1,0 +1,131 @@
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Didea.launcher.port=7533 -Didea.launcher.bin.path=/home/dhunzike/.local/share/umake/ide/idea/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/home/dhunzike/workspaces/spark-two-examples/target/scala-2.11/classes:/home/dhunzike/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/home/dhunzike/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar:/home/dhunzike/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.3.04.jar:/home/dhunzike/.ivy2/cache/stax/stax-api/jars/stax-api-1.0.1.jar:/home/dhunzike/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar:/home/dhunzike/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar:/home/dhunzike/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar:/home/dhunzike/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:/home/dhunzike/.ivy2/cache/org.spark-project.hive/hive-metastore/jars/hive-metastore-1.2.1.spark2.jar:/home/dhunzike/.ivy2/cache/org.spark-project.hive/hive-exec/jars/hive-exec-1.2.1.spark2.jar:/home/dhunzike/.ivy2/cache/org.sonatype.sisu.inject/cglib/jars/cglib-2.2.1-v20090111.jar:/home/dhunzike/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.16.jar:/home/dhunzike/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar:/home/dhunzike/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.16.jar:/home/dhunzike/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.16.jar:/home/dhunzike/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.6.jar:/home/dhunzike/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar:/home/dhunzike/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/home/dhunzike/.ivy2/cache/org.scala-lang.plugins/scala-continuations-library_2.11/bundles/scala-continuations-library_2.11-1.0.1.jar:/home/dhunzike/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/dhunzike/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/bundles/scala-swing_2.11-1.0.1.jar:/home/dhunzike/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/home/dhunzike/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/home/dhunzike/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/home/dhunzike/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar:/home/dhunzike/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/home/dhunzike/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar:/home/dhunzike/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar:/home/dhunzike/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.1.jar:/home/dhunzike/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar:/home/dhunzike/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.2.11.jar:/home/dhunzike/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.11.jar:/home/dhunzike/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.11.jar:/home/dhunzike/.ivy2/cache/org.json/json/jars/json-20090211.jar:/home/dhunzike/.ivy2/cache/org.jodd/jodd-core/jars/jodd-core-3.5.2.jar:/home/dhunzike/.ivy2/cache/org.jfree/jfreechart/jars/jfreechart-1.0.17.jar:/home/dhunzike/.ivy2/cache/org.jfree/jcommon/jars/jcommon-1.0.21.jar:/home/dhunzike/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.1-GA.jar:/home/dhunzike/.ivy2/cache/org.iq80.snappy/snappy/jars/snappy-0.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.media/jersey-media-jaxb/jars/jersey-media-jaxb-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.core/jersey-server/jars/jersey-server-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.core/jersey-common/jars/jersey-common-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.core/jersey-client/jars/jersey-client-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet-core/jars/jersey-container-servlet-core-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet/jars/jersey-container-servlet-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/bundles/jersey-guava-2.22.2.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2/osgi-resource-locator/jars/osgi-resource-locator-1.0.1.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2/hk2-utils/jars/hk2-utils-2.4.0-b34.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2/hk2-locator/jars/hk2-locator-2.4.0-b34.jar:/home/dhunzike/.ivy2/cache/org.glassfish.hk2/hk2-api/jars/hk2-api-2.4.0-b34.jar:/home/dhunzike/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/bundles/leveldbjni-all-1.8.jar:/home/dhunzike/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-3.2.9.jar:/home/dhunzike/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-3.2.10.jar:/home/dhunzike/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-3.2.6.jar:/home/dhunzike/.ivy2/cache/org.codehaus.janino/janino/jars/janino-2.7.8.jar:/home/dhunzike/.ivy2/cache/org.codehaus.janino/commons-compiler/jars/commons-compiler-2.7.8.jar:/home/dhunzike/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar:/home/dhunzike/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar:/home/dhunzike/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.5.jar:/home/dhunzike/.ivy2/cache/org.apache.xbean/xbean-asm5-shaded/bundles/xbean-asm5-shaded-4.4.jar:/home/dhunzike/.ivy2/cache/org.apache.thrift/libthrift/jars/libthrift-0.9.2.jar:/home/dhunzike/.ivy2/cache/org.apache.thrift/libfb303/jars/libfb303-0.9.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/jars/spark-unsafe_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-sketch_2.11/jars/spark-sketch_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/jars/spark-network-shuffle_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-hive_2.11/jars/spark-hive_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.2.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-jackson/jars/parquet-jackson-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-hadoop/jars/parquet-hadoop-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-generator/jars/parquet-generator-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-format/jars/parquet-format-2.3.0-incubating.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-encoding/jars/parquet-encoding-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-common/jars/parquet-common-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.parquet/parquet-column/jars/parquet-column-1.7.0.jar:/home/dhunzike/.ivy2/cache/org.apache.mesos/mesos/jars/mesos-0.21.1-shaded-protobuf.jar:/home/dhunzike/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.4.0.jar:/home/dhunzike/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.4.4.jar:/home/dhunzike/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.2.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/jars/hadoop-yarn-server-common-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/jars/hadoop-yarn-client-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/jars/hadoop-mapreduce-client-core-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/jars/hadoop-mapreduce-client-common-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/jars/hadoop-mapreduce-client-app-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/jars/hadoop-hdfs-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-client/jars/hadoop-client-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.derby/derby/jars/derby-10.10.2.0.jar:/home/dhunzike/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.4.0.jar:/home/dhunzike/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.4.0.jar:/home/dhunzike/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.4.0.jar:/home/dhunzike/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar:/home/dhunzike/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar:/home/dhunzike/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/home/dhunzike/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar:/home/dhunzike/.ivy2/cache/org.apache.calcite/calcite-linq4j/jars/calcite-linq4j-1.2.0-incubating.jar:/home/dhunzike/.ivy2/cache/org.apache.calcite/calcite-core/jars/calcite-core-1.2.0-incubating.jar:/home/dhunzike/.ivy2/cache/org.apache.calcite/calcite-avatica/jars/calcite-avatica-1.2.0-incubating.jar:/home/dhunzike/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.7.7-hadoop2.jar:/home/dhunzike/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7-tests.jar:/home/dhunzike/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7.jar:/home/dhunzike/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar:/home/dhunzike/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.1.jar:/home/dhunzike/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.3.jar:/home/dhunzike/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.4.jar:/home/dhunzike/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.4.jar:/home/dhunzike/.ivy2/cache/net.sf.py4j/py4j/jars/py4j-0.10.3.jar:/home/dhunzike/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar:/home/dhunzike/.ivy2/cache/net.razorvine/pyrolite/jars/pyrolite-4.13.jar:/home/dhunzike/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar:/home/dhunzike/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.7.1.jar:/home/dhunzike/.ivy2/cache/net.hydromatic/eigenbase-properties/bundles/eigenbase-properties-1.1.5.jar:/home/dhunzike/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:/home/dhunzike/.ivy2/cache/log4j/apache-log4j-extras/bundles/apache-log4j-extras-1.2.17.jar:/home/dhunzike/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.3.jar:/home/dhunzike/.ivy2/cache/javolution/javolution/bundles/javolution-5.5.1.jar:/home/dhunzike/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar:/home/dhunzike/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/home/dhunzike/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/home/dhunzike/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar:/home/dhunzike/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar:/home/dhunzike/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/home/dhunzike/.ivy2/cache/javax.annotation/javax.annotation-api/jars/javax.annotation-api-1.2.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.33.Final.jar:/home/dhunzike/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar:/home/dhunzike/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/bundles/metrics-jvm-3.1.2.jar:/home/dhunzike/.ivy2/cache/io.dropwizard.metrics/metrics-json/bundles/metrics-json-3.1.2.jar:/home/dhunzike/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/bundles/metrics-graphite-3.1.2.jar:/home/dhunzike/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.1.2.jar:/home/dhunzike/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar:/home/dhunzike/.ivy2/cache/commons-net/commons-net/jars/commons-net-2.2.jar:/home/dhunzike/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar:/home/dhunzike/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar:/home/dhunzike/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar:/home/dhunzike/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar:/home/dhunzike/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar:/home/dhunzike/.ivy2/cache/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar:/home/dhunzike/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar:/home/dhunzike/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:/home/dhunzike/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/home/dhunzike/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar:/home/dhunzike/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:/home/dhunzike/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:/home/dhunzike/.ivy2/cache/com.univocity/univocity-parsers/jars/univocity-parsers-2.1.1.jar:/home/dhunzike/.ivy2/cache/com.twitter/parquet-hadoop-bundle/jars/parquet-hadoop-bundle-1.6.0.jar:/home/dhunzike/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.8.0.jar:/home/dhunzike/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.8.0.jar:/home/dhunzike/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/home/dhunzike/.ivy2/cache/com.storm-enroute/scalameter_2.11/jars/scalameter_2.11-0.7.jar:/home/dhunzike/.ivy2/cache/com.storm-enroute/scalameter-core_2.11/jars/scalameter-core_2.11-0.7.jar:/home/dhunzike/.ivy2/cache/com.ning/compress-lzf/bundles/compress-lzf-1.0.3.jar:/home/dhunzike/.ivy2/cache/com.madgag/scala-arm_2.11/jars/scala-arm_2.11-1.3.3.jar:/home/dhunzike/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/home/dhunzike/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.3.2.jar:/home/dhunzike/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/home/dhunzike/.ivy2/cache/com.google.inject/guice/jars/guice-3.0.jar:/home/dhunzike/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar:/home/dhunzike/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar:/home/dhunzike/.ivy2/cache/com.github.wookietreiber/scala-chart_2.11/jars/scala-chart_2.11-0.4.2.jar:/home/dhunzike/.ivy2/cache/com.github.scala-incubator.io/scala-io-file_2.11/jars/scala-io-file_2.11-0.4.3.jar:/home/dhunzike/.ivy2/cache/com.github.scala-incubator.io/scala-io-core_2.11/jars/scala-io-core_2.11-0.4.3.jar:/home/dhunzike/.ivy2/cache/com.github.andyglow/websocket-scala-client_2.11/jars/websocket-scala-client_2.11-0.1.2.jar:/home/dhunzike/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.6.5.jar:/home/dhunzike/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.6.5.jar:/home/dhunzike/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.6.5.jar:/home/dhunzike/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.6.5.jar:/home/dhunzike/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.6.5.jar:/home/dhunzike/.ivy2/cache/com.esotericsoftware/minlog/bundles/minlog-1.3.0.jar:/home/dhunzike/.ivy2/cache/com.esotericsoftware/kryo-shaded/bundles/kryo-shaded-3.0.3.jar:/home/dhunzike/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar:/home/dhunzike/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/home/dhunzike/.local/share/umake/ide/idea/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain api.AccumulatorPerformance
+16/11/24 22:09:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/11/24 22:09:17 WARN Utils: Your hostname, Zurich resolves to a loopback address: 127.0.1.1; using 192.168.1.13 instead (on interface wlp3s0)
+16/11/24 22:09:17 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+16/11/24 22:09:18 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+Starting warmup.
+GC detected.
+GC detected.
+GC detected.
+0. warmup run running time: 2698.11998 (covNoGC: NaN, covGC: NaN)
+GC detected.
+GC detected.
+GC detected.
+1. warmup run running time: 1607.992415 (covNoGC: NaN, covGC: 0.3580)
+GC detected.
+GC detected.
+2. warmup run running time: 1091.827474 (covNoGC: NaN, covGC: 0.4558)
+GC detected.
+3. warmup run running time: 1032.19985 (covNoGC: NaN, covGC: 0.4800)
+GC detected.
+GC detected.
+4. warmup run running time: 977.493159 (covNoGC: NaN, covGC: 0.4895)
+GC detected.
+5. warmup run running time: 955.545757 (covNoGC: NaN, covGC: 0.4902)
+GC detected.
+6. warmup run running time: 890.995365 (covNoGC: NaN, covGC: 0.4932)
+GC detected.
+7. warmup run running time: 870.842255 (covNoGC: NaN, covGC: 0.4934)
+GC detected.
+8. warmup run running time: 836.532238 (covNoGC: NaN, covGC: 0.4937)
+GC detected.
+9. warmup run running time: 847.122493 (covNoGC: NaN, covGC: 0.4903)
+GC detected.
+10. warmup run running time: 889.827904 (covNoGC: NaN, covGC: 0.2291)
+GC detected.
+11. warmup run running time: 883.662705 (covNoGC: NaN, covGC: 0.0908)
+Steady-state detected.
+Ending warmup.
+Starting warmup.
+GC detected.
+0. warmup run running time: 818.9125 (covNoGC: NaN, covGC: NaN)
+GC detected.
+1. warmup run running time: 824.053116 (covNoGC: NaN, covGC: 0.0044)
+2. warmup run running time: 827.142182 (covNoGC: NaN, covGC: 0.0050)
+GC detected.
+3. warmup run running time: 813.712213 (covNoGC: NaN, covGC: 0.0072)
+GC detected.
+4. warmup run running time: 885.282354 (covNoGC: NaN, covGC: 0.0350)
+GC detected.
+5. warmup run running time: 889.486952 (covNoGC: NaN, covGC: 0.0411)
+6. warmup run running time: 853.723345 (covNoGC: 0.0224, covGC: 0.0377)
+GC detected.
+7. warmup run running time: 827.946225 (covNoGC: 0.0224, covGC: 0.0357)
+GC detected.
+8. warmup run running time: 853.028346 (covNoGC: 0.0224, covGC: 0.0336)
+GC detected.
+9. warmup run running time: 775.880999 (covNoGC: 0.0224, covGC: 0.0410)
+Steady-state detected.
+Ending warmup.
+Running test set for accumulator.add-v2, curve Test-0
+Starting warmup.
+GC detected.
+0. warmup run running time: 751.123544 (covNoGC: NaN, covGC: NaN)
+1. warmup run running time: 759.464835 (covNoGC: NaN, covGC: 0.0078)
+GC detected.
+2. warmup run running time: 739.405392 (covNoGC: NaN, covGC: 0.0134)
+GC detected.
+3. warmup run running time: 808.061002 (covNoGC: NaN, covGC: 0.0395)
+GC detected.
+4. warmup run running time: 782.110565 (covNoGC: NaN, covGC: 0.0355)
+GC detected.
+5. warmup run running time: 839.799777 (covNoGC: NaN, covGC: 0.0489)
+6. warmup run running time: 708.49936 (covNoGC: 0.0491, covGC: 0.0572)
+GC detected.
+7. warmup run running time: 771.347088 (covNoGC: 0.0491, covGC: 0.0530)
+GC detected.
+8. warmup run running time: 790.532859 (covNoGC: 0.0491, covGC: 0.0502)
+GC detected.
+9. warmup run running time: 784.354798 (covNoGC: 0.0491, covGC: 0.0475)
+Steady-state detected.
+Ending warmup.
+36 repetitions of the snippet starting.
+measurements: 957.347167 ms, 904.292445 ms, 721.82267 ms, 880.045342 ms, 952.272185 ms, 653.323737 ms, 650.779667 ms, 740.415682 ms, 704.356542 ms, 883.169118 ms, 786.89814 ms, 814.912796 ms, 665.339057 ms, 642.188515 ms, 698.838815 ms, 614.133669 ms, 683.513971 ms, 736.482643 ms, 710.860348 ms, 681.897093 ms, 608.175966 ms, 799.428236 ms, 828.726617 ms, 766.515785 ms, 738.896064 ms, 592.058375 ms, 667.429726 ms, 659.22763 ms, 631.265122 ms, 659.062566 ms, 599.163814 ms, 646.439591 ms, 661.885913 ms, 694.22355 ms, 763.486413 ms, 595.858124 ms
+Repetitions ended.
+::Benchmark accumulator.add-v2::
+cores: 4
+hostname: Zurich
+name: OpenJDK 64-Bit Server VM
+osArch: amd64
+osName: Linux
+vendor: Oracle Corporation
+version: 25.111-b14
+Parameters(iterations -> 100): 592.058375
+
+Running test set for accumulator.add-v1, curve Test-1
+Starting warmup.
+GC detected.
+0. warmup run running time: 800.552665 (covNoGC: NaN, covGC: NaN)
+GC detected.
+1. warmup run running time: 725.285985 (covNoGC: NaN, covGC: 0.0698)
+GC detected.
+2. warmup run running time: 632.664269 (covNoGC: NaN, covGC: 0.1169)
+GC detected.
+3. warmup run running time: 630.328805 (covNoGC: NaN, covGC: 0.1174)
+4. warmup run running time: 612.316464 (covNoGC: NaN, covGC: 0.1182)
+GC detected.
+5. warmup run running time: 645.645217 (covNoGC: NaN, covGC: 0.1087)
+GC detected.
+6. warmup run running time: 698.00989 (covNoGC: NaN, covGC: 0.0996)
+GC detected.
+7. warmup run running time: 672.145959 (covNoGC: NaN, covGC: 0.0924)
+GC detected.
+8. warmup run running time: 662.795789 (covNoGC: NaN, covGC: 0.0869)
+9. warmup run running time: 621.21205 (covNoGC: 0.0102, covGC: 0.0865)
+Steady-state detected.
+Ending warmup.
+36 repetitions of the snippet starting.
+measurements: 939.803189 ms, 713.292707 ms, 760.464087 ms, 722.362284 ms, 732.244157 ms, 776.610517 ms, 738.84489 ms, 703.90383 ms, 691.54627 ms, 814.426024 ms, 711.118723 ms, 712.944232 ms, 700.530299 ms, 741.291364 ms, 767.796699 ms, 779.576866 ms, 753.552473 ms, 668.688647 ms, 771.486331 ms, 740.943081 ms, 696.737779 ms, 680.553458 ms, 689.971029 ms, 656.477102 ms, 688.781438 ms, 699.644166 ms, 691.490525 ms, 667.235931 ms, 708.894108 ms, 749.743796 ms, 698.261724 ms, 719.059693 ms, 673.116261 ms, 678.015411 ms, 721.738097 ms, 730.744069 ms
+Repetitions ended.
+::Benchmark accumulator.add-v1::
+cores: 4
+hostname: Zurich
+name: OpenJDK 64-Bit Server VM
+osArch: amd64
+osName: Linux
+vendor: Oracle Corporation
+version: 25.111-b14
+Parameters(iterations -> 100): 656.477102
+
+
+Process finished with exit code 0

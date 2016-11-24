@@ -27,7 +27,7 @@ trait Spark {
     .config("spark.memory.offHeap.enabled", true)
     .config("spark.memory.offHeap.size", 1000000000) // 100mb
 
-    .enableHiveSupport()
+    //.enableHiveSupport()
     .getOrCreate()
 
   def print(message: String) = println(message)
